@@ -71,6 +71,7 @@ df4 = pd.read_csv('alpha45phi35.CSV',low_memory=False,skiprows=15)
 df5 = pd.read_csv('alpha45phi45.CSV',low_memory=False,skiprows=15)
 df6 = pd.read_csv('alpha45phi50.CSV',low_memory=False,skiprows=15)
 df7 = pd.read_csv('alpha45phi55.CSV',low_memory=False,skiprows=15)
+df8 = pd.read_csv('alpha45phi60.CSV',low_memory=False,skiprows=15)
 
 
 #print(df_final)
@@ -91,6 +92,9 @@ new_df6 = df6[keep_col6]
 keep_col7 = ['CH3']
 new_df7 = df7[keep_col7]
 
+keep_col8 = ['CH3']
+new_df8 = df8[keep_col8]
+
 #print(new_df4)
 
 ############################# Rename Columns #############################
@@ -103,10 +107,11 @@ new_df6.columns = ['50']
 
 new_df7.columns = ['55']
 
+new_df8.columns = ['55']
 
 ############################# Link Data #############################
 
-data_out = pd.concat([-new_df4,-new_df5,-new_df6,-new_df7],axis=1)
+data_out = pd.concat([-new_df4,-new_df5,-new_df6,-new_df7,-new_df8],axis=1)
 
 print(data_out)
 

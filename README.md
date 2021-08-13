@@ -20,3 +20,5 @@ Quarter Wave Plate - Axes found at 3/183deg and 93/273deg by put the linear pola
 The laser frequancy is sweeped by 1 Hz, 4 Vpp, and 50% symmetry to get a triagnlar wave.
 
 The "CH_ Peak Detect" column in the .csv files are ignored as that column is reading the max and min voltage at each time. It is made for ns pulses and my pulse is much slower (more like ms). So we just want the actual reading from the signal at each time. 
+
+Resonance 1 is at 180.2-185.1 mA and resonance 2 is 190.5-193.3 mA.
