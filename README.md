@@ -5,6 +5,7 @@ Graphs on pg. 343 were recreated for both resonances and both quater wave plate 
 
 There are 4 folders. r1-a3 is the first resonance where the axis is defined as 3deg. r1-a93 is the first resonance where the axis is defined as 93deg. r2-a3 is the second resonance where the axis is defined as 3deg. r2-a93 is the second resonance where the axis is defined as 93deg. 
 
+The graphs that are changes in alpha have a constant phi where phi is along the axis. The graphs that are changes in phi have a constant alpha=43deg. 
 
 Parameters: 
 
