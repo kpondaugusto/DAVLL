@@ -3,6 +3,8 @@ To set up the DAVLL system, the paper "Laser frequency stabilization using linea
 
 Graphs on pg. 343 were recreated for both resonances and both quater wave plate axis as it was uncertain which was the fast axis and which was the slow axis. 
 
+There are 4 folders. r1-a3 is the first resonance where the axis is defined as 3deg. r1-a93 is the first resonance where the axis is defined as 93deg. r2-a3 is the second resonance where the axis is defined as 3deg. r2-a93 is the second resonance where the axis is defined as 93deg. 
+
 
 Parameters: 
 
