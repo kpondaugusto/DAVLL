@@ -57,8 +57,9 @@ x='Time'
 
 
 data_out.plot(x)
-
-plt.title('Resonance 2, axis=93deg, for Change in alpha')
+plt.ylabel('DAVLL Signal')
+plt.xlabel('Frequency Detuning')
+# plt.title('Resonance 2, axis=93deg, for Change in alpha')
 plt.show()
 
 
@@ -122,6 +123,7 @@ print(data_out)
 x='Time'
 
 data_out.plot(x)
-
-plt.title('Resonance 2, axis=93deg, for Change in Phi')
+plt.ylabel('DAVLL Signal')
+plt.xlabel('Frequency Detuning')
+# plt.title('Resonance 2, axis=93deg, for Change in Phi')
 plt.show()
